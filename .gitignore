@@ -28,8 +28,9 @@ wheels/
 *.ipynb_checkpoints
 
 # Machine Learning
-models/*.pkl
 models/
+model/
+*.pkl
 *.h5
 *.pb
 *.ckpt
@@ -44,10 +45,3 @@ models/
 # OS
 .DS_Store
 Thumbs.db
-
-# Data (optional - zavisno da li želite da commit-ujete podatke)
-# data/
-
-# Results - komentarisano da bi se videli rezultati na GitHub-u
-# results/*.txt
-# results/*.csv
